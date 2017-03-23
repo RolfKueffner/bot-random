@@ -1,0 +1,81 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "RolfKueffner/bot-random",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "RolfKueffner/bot-random",
+        "spec": "github:rolfkueffner/bot-random",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:rolfkueffner/bot-random.git",
+          "sshUrl": "git+ssh://git@github.com/rolfkueffner/bot-random.git",
+          "httpsUrl": "git+https://github.com/rolfkueffner/bot-random.git",
+          "gitUrl": "git://github.com/rolfkueffner/bot-random.git",
+          "shortcut": "github:rolfkueffner/bot-random",
+          "directUrl": "https://raw.githubusercontent.com/rolfkueffner/bot-random/master/package.json"
+        }
+      },
+      "C:\\Users\\guestabilita\\WebstormProjects\\SlackBot"
+    ]
+  ],
+  "_from": "rolfkueffner/bot-random",
+  "_id": "bot-random@1.0.0",
+  "_inCache": true,
+  "_location": "/bot-random",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "RolfKueffner/bot-random",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "RolfKueffner/bot-random",
+    "spec": "github:rolfkueffner/bot-random",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:rolfkueffner/bot-random.git",
+      "sshUrl": "git+ssh://git@github.com/rolfkueffner/bot-random.git",
+      "httpsUrl": "git+https://github.com/rolfkueffner/bot-random.git",
+      "gitUrl": "git://github.com/rolfkueffner/bot-random.git",
+      "shortcut": "github:rolfkueffner/bot-random",
+      "directUrl": "https://raw.githubusercontent.com/rolfkueffner/bot-random/master/package.json"
+    }
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "git://github.com/rolfkueffner/bot-random.git#0a8b2a1378f5e6e9dba27566d5109cda46521b9c",
+  "_shasum": "901861e37ae80197b48b76129aff220110bc0294",
+  "_shrinkwrap": null,
+  "_spec": "RolfKueffner/bot-random",
+  "_where": "C:\\Users\\guestabilita\\WebstormProjects\\SlackBot",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/rolfkueffner/bot-random/issues"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "description": "See code, its izi.",
+  "devDependencies": {},
+  "gitHead": "0a8b2a1378f5e6e9dba27566d5109cda46521b9c",
+  "homepage": "https://github.com/rolfkueffner/bot-random#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "bot-random",
+  "optionalDependencies": {},
+  "readme": "# Bot Example Plugin\r\n\r\nSee code, its izi.",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rolfkueffner/bot-random.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
