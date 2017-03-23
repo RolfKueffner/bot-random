@@ -46,7 +46,7 @@ var Module = function (bot) {
     if(splittedText[1] && splittedText[1].length != 0){
       lowNo = splittedText[1];
     }
-    response = Math.floor(Math.random() * (highNo + 1 - lowNo)) + lowNo;
+    var response = Math.floor(Math.random() * (highNo + 1 - lowNo)) + lowNo;
     bot.postMessage(channel, response);
 
   };
