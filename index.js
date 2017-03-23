@@ -65,19 +65,31 @@ var Module = function (bot) {
     var choiceN;
 
     switch (args.toUpperCase()) {
-      case "STEIN" || "ROCK":
+      case "STEIN":
         choiceN = 0;
         break;
       case "SPOCK":
         choiceN = 1;
         break;
-      case "PAPIER" || "PAPER":
+      case "PAPIER":
         choiceN = 2;
         break;
-      case "ECHSE" || "LIZARD":
+      case "ECHSE":
         choiceN = 3;
         break;
-      case "SCHERE" || "SCISSORS":
+      case "SCHERE":
+        choiceN = 4;
+        break;
+      case "ROCK":
+        choiceN = 0;
+        break;
+      case "PAPER":
+        choiceN = 2;
+        break;
+      case "LIZARD":
+        choiceN = 3;
+        break;
+      case "SCISSORS":
         choiceN = 4;
         break;
       default:
