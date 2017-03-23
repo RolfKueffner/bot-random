@@ -12,7 +12,7 @@ var Module = function (bot) {
     return {
       "coinflip": "Flip a coin and get Head or Tails",
       "dice": "Roll a dice",
-      "randomnumber": "Get a random number. Usage: !randomnumber highestNumber lowestNumber"
+      "randomnumber": "Get a random number. Usage: !randomnumber number1-number2 "
     };
   };
   this.commands = {};
@@ -36,20 +36,24 @@ var Module = function (bot) {
   };
 
   this.commands.randomnumber = function(channel, args, user) {
-    splittedText = args.split(" ");
+    splittedText = args.split("-");
     var lowNo = 0;
     var highNo = 100;
 
+
     if(splittedText[0] && splittedText[0].length != 0){
-      highNo = splittedText[0];
+      highNo = parseFloat(splittedText[0]);
     }
     if(splittedText[1] && splittedText[1].length != 0){
-      lowNo = splittedText[1];
+      lowNo = parseFloat(splittedText[1]);
     }
-    var response = Math.floor(Math.random() * (highNo + 1 - lowNo)) + lowNo;
+    var multi = (highNo + 1 - lowNo)
+    var response = Math.floor(Math.random() * multi) + lowNo;
     bot.postMessage(channel, response);
 
   };
+
+
 
 };
 
