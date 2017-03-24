@@ -55,7 +55,6 @@ var Module = function (bot) {
 
   this.commands.rps = function(channel, args, user) {
 
-    choice = ["Rock", "Spock", "Paper", "Lizard", "Scissors"];
 
     art = [["", "My Spock vaporizes your Rock", "My Paper covers your Rock", "Your Rock crushes my Lizard", "Your rock crushes my Scissors"],
       ["Your Spock vaporizes my Rock", "", "My Paper disproves Spock", "My Lizard poisons your Spock", "Your Spock smashes my Scissors"],
@@ -104,7 +103,7 @@ var Module = function (bot) {
       var test = (((diff%5)+5)%5);
 
       if (diff === 0) {
-        bot.postMessage(channel, "TIE: We both chose "+choice[compChoice]+"!");
+        bot.postMessage(channel, "TIE: We both chose "+ args +"!");
       }
       else if (test === 3 ||test === 4){
         bot.postMessage(channel, "YOU LOST: "+art[choiceN][compChoice]);
